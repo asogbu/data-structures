@@ -1,0 +1,42 @@
+-----------------------------
+Grading script for Spring 2022 - Programming Challenge 06
+
+Student's Name: 
+Student's ID  : 
+
+These tests evaluate if you met the Production Quality Compilation Standards.
+To get the best results, run 'make clean' before running this script next time.
+If you are a student, don't forget to run 'make clean' before you push!
+
+-----------------------------
+Testing for clean pushing to GitHub
+Student successfully pushed to GitHub with no object files
+50 / 50
+Student successfully pushed to GitHub with no executables
+50 / 50
+
+-----------------------------
+Testing make clean
+Student successfully implement make clean
+50 / 50
+
+
+-----------------------------
+Testing make PC06
+rm -rf objects/* exe/*
+make PC06 output  : 
+g++ -m64 -std=c++11 -O2 -g -Wall -Wextra -Wconversion -Wshadow -Werror -lm -c src/PC06.cpp -o objects/PC06.o g++ -m64 -std=c++11 -O2 -g -Wall -Wextra -Wconversion -Wshadow -Werror -lm -c src/lru_cache.cpp -o objects/lru_cache.o g++ -m64 -std=c++11 -O2 -g -Wall -Wextra -Wconversion -Wshadow -Werror -lm -o exe/PC06 objects/PC06.o objects/lru_cache.o
+
+make PC06 test passed
+Student made a good faith attempt to compile with these flags:
+g++ -Wextra -Wconversion -Werror -std=c++11
+Successful compilation is not required to earn these points
+100 / 100
+
+-----------------------------
+PC06 Successfully Compiled!
+150 / 150
+
+-----------------------------
+
+PC06 Standards Grade Portion for  (): 400 / 400 
